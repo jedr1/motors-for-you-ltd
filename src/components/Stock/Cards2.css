@@ -1,0 +1,217 @@
+.cards {
+    padding: 0.8rem;
+    
+    background: #fff;
+    position: relative;
+    min-height: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .search-engine {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+.price__button {
+  max-width: 160px;
+  margin-top: 10px;
+}
+
+  .cards__item__price {
+    color: green;
+    text-align: left;
+    font-size: 1.4rem;
+  }
+  .cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .cards__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .cards__items {
+    /*margin-bottom: 24px;*/
+  }
+  
+  .cards__item1 {
+    display: flex;
+    flex: 1;
+    margin: 0 0rem;
+    border-radius: 0px;
+    background: #fff;
+    min-width: 325px;
+    padding-bottom: 0px;
+    margin-right: 5px;
+    box-shadow: 0 6px 20px rgba(178, 12, 78, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    overflow: hidden;
+  }
+  
+  .cards__item__link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(178, 12, 78, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 5px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .cards__item__pic-wrap1 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding-top: 67%;
+    overflow: hidden;
+  }
+  
+  
+  .fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+  }
+  
+  .cards__item__pic-wrap1::after {
+    content: attr(data-category);
+    position: absolute;
+    /*bottom: 0;*/
+    top: 0;
+    margin-top: 20px;
+    
+    padding: 12px 25px;
+    max-width: calc((100%) - 60px);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    /*background-color: #fff;;*/
+    box-sizing: border-box;
+  }
+  .pink-bit {
+    background: rgb(178, 12, 78);
+    padding: 20px;
+  }
+  
+  .cards__item__img1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    width: 100%;
+    max-width: 100%;
+    /* height: 100%; */
+    height: 210px;
+    max-height: 100%;
+    object-fit: cover;
+    
+    
+    
+  }
+  
+  
+ 
+  
+  .cards__item__info {
+    padding: 20px;
+    padding-left: 30px;
+     padding-top: 10px; 
+  }
+  
+  .cards__item__text1 {
+    color: #252e48;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .cards__item__text22 {
+    color: #252e48;
+    font-size: 12px;
+    margin-top: 6px;
+    font-weight: 300;
+  }
+  .cards__item__miles {
+    color: #252e48;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .fa-car {
+    padding-right: 5px;
+    font-size: 1rem;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+    .cards__container {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      max-width: 1120px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .cards {
+      padding: 2rem;
+      background: #fff;
+      position: relative;
+      min-height: 50px;
+    }
+    .cards__item__text {
+      font-size: 1.4rem;
+      line-height: 1;
+      font-weight: 400;
+    }
+    .cards__item__text2 {
+      font-size: 1rem;
+    }
+    .search-engine {
+      padding: -50px;
+      max-width: 75vw;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .cards__item__img1{
+      height: 100%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .cards__item__img1{
+      height: 225px;
+    }
+  }

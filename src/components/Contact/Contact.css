@@ -1,0 +1,171 @@
+.contact {
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orangered;
+    color: #000;
+    
+    font-size: 1.2 rem;
+    position: relative;
+    
+    background-color: #fff;
+}
+
+.contact-header {
+    padding: 20px;
+    padding-bottom: 10px;
+    color: #000;
+    border-bottom: 1px solid ;
+    font-size: 2.2rem;
+    margin-top: -250px;
+}
+
+.contact-sub-header {
+    font-size: 1.2rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-container {
+    border-radius: 0.5rem;
+    /*border: 1px solid;*/
+    /*padding: 2rem;*/
+}
+.contact-input-items {
+    padding: 5px;
+}
+
+.input-box {
+    width: 300px;
+    height: 100%;
+    border: 2px solid #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    padding: 0.5rem;
+    color: #000;
+    background: none;
+}
+.input-box:hover {
+   /*border-color: #8dffff;*/
+   border-color: rgb(110, 7, 49);
+    
+}
+.input-box:focus {
+   /* border-color: #18ffff;*/
+    border-color:rgb(178, 12, 78);
+}
+
+.contact-2 {
+   /* padding: 4rem 0 2rem 0;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-2-header {
+    padding: 20px;
+    padding-bottom: 10px;
+    color: rgb(9, 6, 98);
+    border-bottom: 1px solid rgb(9, 6, 98);
+    font-size: 1.8rem;
+}
+
+.contact-2-sub-header {
+    font-size: 1.2rem;
+    padding: 20px;
+    color: rgb(9, 6, 98);
+}
+
+.contact-btn {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0%;
+    
+}
+
+@media screen and (min-width:800px) {
+    .input-box {
+        width: 400px;
+        height: 100%;
+    }
+    .contact-btn {
+        margin-left: 34%;
+        margin-right: 20%;
+        
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .input-box {
+        width: 500px;
+        height: 100%;
+    }
+    .contact-btn {
+        margin-left: 25%;
+    }
+}
+
+.fa-phone {
+    color:rgb(178, 12, 78);
+    padding-right: 20px;
+}
+
+.fa-facebook {
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    background: #3B5998;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.fa-twitter {  
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    background: #55ACEE;  
+    color: white;  
+    margin-left: 5px;
+    text-decoration:  none;
+  }  
+  .fa-instagram {  
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    background: #125688;  
+    color: white; 
+    margin-left: 5px; 
+    text-decoration: none;
+  }  
+  .fa-youtube {  
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    background: #bb0000;  
+    color: white;  
+    margin-left: 5px;
+    text-decoration: none;
+    
+  }  
+ .fa-whatsapp {
+    font-size: 1.8rem;
+ }
+ .fa:hover {
+    color: #fff;
+ }
+ .underline {
+    text-decoration: none;
+ }
+ .num {
+    text-decoration: none;
+ }

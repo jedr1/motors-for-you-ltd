@@ -1,0 +1,23 @@
+.loading {
+    filter: blur(10px);
+    clip-path: inset(0);
+}
+.loaded {
+    filter: blur(0px);
+    transition: filter 0.5s linear;
+}
+.not-gone {
+    display: flex;
+}
+.gone {
+    display: none;
+}
+.not-gone2 {
+    
+}
+.gone {
+    background: pink;
+}
+.image-container:hover .image-text {
+    opacity: 1; /* Make the text visible on hover */
+  }

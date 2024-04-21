@@ -1,0 +1,8 @@
+.z-index {
+    position: relative;
+    z-index: 99;
+}
+.footer {
+    position: relative;
+    z-index: 0;
+}

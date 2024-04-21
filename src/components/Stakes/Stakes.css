@@ -1,0 +1,254 @@
+.stakes {
+    background: rgb(220, 220, 220);
+  width: 100%;
+    
+    height: 100%;
+    padding-bottom: 25px;
+}
+.stakes2 {
+    background: rgb(220, 220, 220);
+  width: 100%;
+    
+    height: 100%;
+    
+}
+
+.stakes-header {
+    padding-top: 50px;
+    width: 100%;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border-bottom: 1px solid #000;
+    font-family: 'Poppins', sans-serif;
+}
+.stakes-header2 {
+    padding-top: 75px;
+    width: 100%;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border-bottom: 1px solid #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.stakes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+    text-align: left;
+    margin-left: 0;
+    
+}
+
+
+.stakes-list-items {
+    padding: 20px;
+    padding-top: 0px;
+    font-weight: 400;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    line-height: 1.2;
+    font-size: 1.1rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fa-circle-xmark {
+    font-size: 1.4;
+    color: rgb(178, 12, 78);
+    align-self: center;
+    
+}
+.fa-circle-check {
+    color: rgb(178, 12, 78);
+    font-size: 4.5rem;
+}
+/* @media screen and (max-height: 700px) {
+    .stakes {
+        height: 165vh;
+    }
+}
+@media screen and (max-height: 660px) {
+    .stakes {
+        height: 180vh;
+    }
+}
+@media screen and (max-height: 600px) {
+    .stakes {
+        height: 200vh;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    .stakes {
+        height: 220vh;
+    }
+}
+@media screen and (max-height: 500px) {
+    .stakes {
+        height: 250vh;
+    }
+  } */
+
+@media screen and (max-width: 960px) {
+    .stakes-list-left {
+        margin-left: 5%;
+        font-size: 18px;
+        color: #fff;
+        text-align: left;
+    }
+    .stakes-list-right {
+        margin-left: 5%;
+        font-size: 18px;
+        color: #fff;
+    }
+    .stakes-list-items {
+        font-size: 1rem;
+        line-height: 2;
+    }
+    .stakes-header {
+        padding-top: 50px;
+    }
+    .stakes-header2 {
+        padding-top: 24px;
+    }
+}
+
+@media screen and (max-width: 3000px) {
+    .stakes-list-left {
+        margin-left: 30%;
+        font-size: 20px;
+        color: rgb(8, 6, 56);
+    }
+    .stakes-list-right {
+        margin-left: 30%;
+        font-size: 20px;
+        color: rgb(8, 6, 56);
+    }
+}
+/* @media screen and (max-width: 1200px) {
+    .stakes {
+        height: 160vh;
+    }
+} */
+/* @media screen and (max-width: 1200px) and (max-height: 700px) {
+    .stakes {height: 200vh;
+        height: 160vh;
+    }
+}
+@media screen and (max-width: 1200px) and (max-height: 700px) {
+    .stakes {height: 180vh;
+        
+    }
+}
+@media screen and (max-width: 900px) {
+    .stakes {
+        height: 140vh;
+    }
+    /* .stakes2 {
+        height: 140vh;
+    } */
+
+@media screen and (max-width: 768px) {
+    /* .stakes {
+        height: 180vh;
+        
+    } */
+    /* .stakes2 {
+        height: 180vh;
+        
+    } */
+    .stakes-list-left {
+        margin-left: 5%;
+        font-size: 18px;
+        color: rgb(8, 6, 56);
+    }
+    .stakes-list-right {
+        margin-left: 5%;
+        font-size: 18px;
+        color: rgb(8, 6, 56);
+        padding: 50px;
+    }
+    .stakes-list-items {
+        padding: 20px;
+    }
+    .stakes-container {
+        margin-top: 60px;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .stakes-list-left {
+        padding: 30px;
+        font-size: 1.3rem;
+    }
+    .stakes-list-right {
+        font-size: 1.3rem;
+        padding: 30px;
+    }
+    .stakes-list-items {
+        padding: 40px;
+    }
+    .stakes-header {
+        font-size: 1.8rem;
+        margin-left: 10px;
+    }
+    .stakes-header2 {
+        font-size: 1.8rem;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    /* .stakes {
+        height: 140vh;
+    }
+    .stakes2 {
+        height: 155vh;
+    } */
+    .stakes-list-items {
+       padding: 15px;
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1;
+    }
+    .stakes-header {
+        font-size: 1.4rem;
+        padding-top: 50px;
+        /* margin-top:-50px; */
+    }
+    .stakes-header2 {
+        font-size: 1.4rem;
+        padding-top: 0px;
+        margin-top:-20px;
+    }
+    .stakes-container {
+        grid-template-columns: 1fr;
+        margin-top: -20px;
+        
+    }
+}
+@media screen and (max-width: 380px) {
+    /* .stakes{
+        height: 190vh;
+    }
+    .stakes2{
+        height: 200vh;
+    } */
+    .stakes-header {
+        margin-top:25px;
+        padding-top: 50px;
+    }
+    .stakes-header2 {
+        margin-top:0;
+        padding-top: 50px;
+    }
+}

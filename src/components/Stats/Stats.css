@@ -1,0 +1,16 @@
+.stats-title {
+    background-image: linear-gradient(
+    30deg,
+    rgb(178, 12, 78),
+    rgb(252, 251, 251),
+    rgb(178, 12, 78)
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.title{ 
+  margin-top: 17.5%;
+  margin-left: 20%;
+
+ }
